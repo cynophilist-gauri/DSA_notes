@@ -1,8 +1,15 @@
 //driver code.
 
-class fibonacci{
-    public static void main(String args[]){
-        //Recursive method
+public class Fibonacci{
+
+    fib(n);
+
+    public static long fib(int n){
+        // Recursive method
+        // Slower method
+        // This is because the f(n-1) or f(n-2) has already been calculated before but it wasn't saved anywhere.
+        // Therefore all the calculations has to be done again.
+
         if( n==0 || n==1 ){
             return n;
         }
@@ -10,7 +17,13 @@ class fibonacci{
     }
 }
 
+// We are looking for the values already calculated. This is also known as memoization.
+{
+...
+}
+
 /* Iterative method
+
  int first = 0, second = 1;
         if( n==0 || n==1 ){
             return n;
