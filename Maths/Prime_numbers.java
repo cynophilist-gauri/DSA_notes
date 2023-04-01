@@ -17,5 +17,5 @@ public static void main(String args[]){
               return false;
             }
             }
-        return true;
+        return 1;
     }
