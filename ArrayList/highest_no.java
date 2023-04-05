@@ -21,3 +21,5 @@ public class highest_no{
 }
 
 //O(n)
+
+//or using Math.max function
